@@ -50,7 +50,7 @@ new TestRunner({
     mocha: {
         bail: true
     },
-
+    name: package.name,
     // Load the provider module.
     definition: Definition,
 
@@ -59,6 +59,9 @@ new TestRunner({
         client_key : 'sl47p7pijvtp73h',
         client_secret : 'j6vluc5yq7dxnj6',
         redirect_url : 'http://localhost:3000/service/callback/dropbox'
+    },
+    credentials: {
+        _gist : '8b03e9461088987f2550'
     }
 
 

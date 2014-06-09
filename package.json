@@ -1,6 +1,6 @@
 {
   "name": "filefog-dropbox",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "dropbox provider for filefog",
   "main": "index.js",
   "scripts": {

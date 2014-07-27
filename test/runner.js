@@ -12,7 +12,8 @@
  */
 
 var mocha = require('mocha');
-var TestRunner = require('filefog-provider-tests');
+var TestRunner = require('filefog-provider-tests').TestRunner;
+var GenerateCredentials = require('filefog-provider-tests').GenerateCredentials;
 var Definition = require('../index.js');
 var winston = require('winston');
 

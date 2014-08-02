@@ -1,6 +1,6 @@
 {
   "name": "filefog-dropbox",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "dropbox provider for filefog",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "node": "*"
   },
   "dependencies": {
-    "dropbox": "^0.10.3",
+    "dropbox": "git://github.com/filefog/dropbox-js.git",
     "node.extend": "^1.0.10",
     "oauth": "^0.9.12",
     "q": "^1.0.1",

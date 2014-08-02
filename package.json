@@ -19,11 +19,11 @@
     "node": "*"
   },
   "dependencies": {
-    "q": "^1.0.1",
-    "winston": "^0.7.3",
+    "dropbox": "^0.10.3",
     "node.extend": "^1.0.10",
-    "dropbox": "^0.10.2",
+    "oauth": "^0.9.12",
+    "q": "^1.0.1",
     "request": "^2.36.0",
-    "oauth": "^0.9.12"
+    "winston": "^0.7.3"
   }
 }

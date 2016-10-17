@@ -1,0 +1,43 @@
+[
+    {
+        "scope": "https://api.dropbox.com:443",
+        "method": "POST",
+        "path": "/1/delta",
+        "body": "cursor=AAHjBTzyZxM5lulRmaJ8fKkP4cdHadSp4UHgpC8mmm9rrRJkci_G1LEqyDbfan7dNDZZg29dSVaZDDuCmSxwQ2vY-4UAx75auipn9JUHQoZw359S7bOIspTFDkcBbVMSaBg",
+        "status": 200,
+        "response": {
+            "has_more": false,
+            "cursor": "AAFMXufN8qB1uQm5XoItiT_nJcFqSnOyp0y0K3FtdGx1g53M-bVH1YOY2xYlURMCaJtci49C3jnmhXPah_HlNJgOPPL1UxmywhpMk2Je6sInndlPnUUqDAX8IIPMX1bAQFo",
+            "entries": [],
+            "reset": false
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Mon, 17 Oct 2016 01:21:16 GMT",
+            "Content-Type",
+            "text/javascript",
+            "Content-Length",
+            "195",
+            "Connection",
+            "keep-alive",
+            "Cache-Control",
+            "no-cache",
+            "Pragma",
+            "no-cache",
+            "Set-Cookie",
+            "gvc=MTUwMzg1MjM2MDgzNTE5MjE0Njc1NzY4NjM1Mzc0OTA2Njg4NjM1; expires=Sat, 16 Oct 2021 01:21:16 GMT; httponly; Path=/; secure",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Dropbox-Http-Protocol",
+            "None",
+            "X-Dropbox-Request-Id",
+            "9fffa4d318b470242b3de8b5f0caab15",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-Server-Response-Time",
+            "71"
+        ]
+    }
+]

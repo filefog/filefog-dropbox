@@ -1,0 +1,53 @@
+[
+    {
+        "scope": "https://api.dropbox.com:443",
+        "method": "GET",
+        "path": "/1/metadata/auto/renamedfile_db93757d-9d77-4a26-83b4-408e23df0a13_test.txt?include_deleted=false&list=false",
+        "body": "",
+        "status": 200,
+        "response": {
+            "read_only": false,
+            "revision": 1318,
+            "bytes": 20,
+            "thumb_exists": false,
+            "rev": "5261ec86afc",
+            "modified": "Mon, 17 Oct 2016 01:21:10 +0000",
+            "mime_type": "text/plain",
+            "size": "20 bytes",
+            "path": "/renamedfile_db93757d-9d77-4a26-83b4-408e23df0a13_test.txt",
+            "is_dir": false,
+            "modifier": null,
+            "root": "dropbox",
+            "client_mtime": "Mon, 17 Oct 2016 01:21:09 +0000",
+            "icon": "page_white_text"
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Mon, 17 Oct 2016 01:21:10 GMT",
+            "Content-Type",
+            "text/javascript",
+            "Content-Length",
+            "392",
+            "Connection",
+            "keep-alive",
+            "Cache-Control",
+            "no-cache",
+            "Pragma",
+            "no-cache",
+            "Set-Cookie",
+            "gvc=MzAyMTM4MjE1NDAwMDg1NDEwMjY1NzMxMTE5NTY5MzA1MTEzOTQ5; expires=Sat, 16 Oct 2021 01:21:10 GMT; httponly; Path=/; secure",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Dropbox-Http-Protocol",
+            "None",
+            "X-Dropbox-Request-Id",
+            "123587dff8432f5433ec1aa978ce40b9",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-Server-Response-Time",
+            "111"
+        ]
+    }
+]

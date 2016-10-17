@@ -1,0 +1,51 @@
+[
+    {
+        "scope": "https://api.dropbox.com:443",
+        "method": "POST",
+        "path": "/1/fileops/create_folder",
+        "body": "path=lvl1_folder_25238ae6-977e-4d9e-a1f8-dc127e623331_test&root=auto",
+        "status": 200,
+        "response": {
+            "read_only": false,
+            "revision": 1328,
+            "bytes": 0,
+            "thumb_exists": false,
+            "rev": "5301ec86afc",
+            "modified": "Mon, 17 Oct 2016 01:21:14 +0000",
+            "size": "0 bytes",
+            "path": "/lvl1_folder_25238ae6-977e-4d9e-a1f8-dc127e623331_test",
+            "is_dir": true,
+            "modifier": null,
+            "root": "dropbox",
+            "icon": "folder"
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Mon, 17 Oct 2016 01:21:14 GMT",
+            "Content-Type",
+            "text/javascript",
+            "Content-Length",
+            "298",
+            "Connection",
+            "keep-alive",
+            "Cache-Control",
+            "no-cache",
+            "Pragma",
+            "no-cache",
+            "Set-Cookie",
+            "gvc=MzE4MDA4MDQ0NzM4NjEwNjIyMzU1ODczMDQ0NjMyMjgwODI2MDM3; expires=Sat, 16 Oct 2021 01:21:14 GMT; httponly; Path=/; secure",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Dropbox-Http-Protocol",
+            "None",
+            "X-Dropbox-Request-Id",
+            "6da487e764cfd82f2153e56eb17bc6f9",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-Server-Response-Time",
+            "234"
+        ]
+    }
+]

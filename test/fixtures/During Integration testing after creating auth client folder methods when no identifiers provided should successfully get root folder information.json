@@ -1,0 +1,46 @@
+[
+    {
+        "scope": "https://api.dropbox.com:443",
+        "method": "GET",
+        "path": "/1/metadata/auto/?include_deleted=false&list=false",
+        "body": "",
+        "status": 200,
+        "response": {
+            "thumb_exists": false,
+            "bytes": 0,
+            "path": "/",
+            "is_dir": true,
+            "icon": "folder",
+            "root": "dropbox",
+            "size": "0 bytes"
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Mon, 17 Oct 2016 01:21:14 GMT",
+            "Content-Type",
+            "text/javascript",
+            "Content-Length",
+            "120",
+            "Connection",
+            "keep-alive",
+            "Cache-Control",
+            "no-cache",
+            "Pragma",
+            "no-cache",
+            "Set-Cookie",
+            "gvc=MjY3NDY0NzY1OTY3MTE3NjA3ODE1NzI1OTUxNTQ4MzQ3ODM0OTM%3D; expires=Sat, 16 Oct 2021 01:21:14 GMT; httponly; Path=/; secure",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Dropbox-Http-Protocol",
+            "None",
+            "X-Dropbox-Request-Id",
+            "162544f0637e46f62562a595185721ed",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-Server-Response-Time",
+            "71"
+        ]
+    }
+]

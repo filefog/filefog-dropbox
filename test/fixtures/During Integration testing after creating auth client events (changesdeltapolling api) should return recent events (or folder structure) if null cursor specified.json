@@ -1,0 +1,220 @@
+[
+    {
+        "scope": "https://api.dropbox.com:443",
+        "method": "POST",
+        "path": "/1/delta",
+        "body": "",
+        "status": 200,
+        "response": {
+            "has_more": false,
+            "cursor": "AAHjBTzyZxM5lulRmaJ8fKkP4cdHadSp4UHgpC8mmm9rrRJkci_G1LEqyDbfan7dNDZZg29dSVaZDDuCmSxwQ2vY-4UAx75auipn9JUHQoZw359S7bOIspTFDkcBbVMSaBg",
+            "entries": [
+                [
+                    "/lvl1_folder_2b215dc7-1a5e-7751-6235-e25e33011536_testfile_a1c91fdb-37cf-af56-7feb-8419947b0a9c_test.txt",
+                    {
+                        "rev": "3101ec86afc",
+                        "thumb_exists": false,
+                        "path": "/lvl1_folder_2b215dc7-1a5e-7751-6235-e25e33011536_testfile_a1c91fdb-37cf-af56-7feb-8419947b0a9c_test.txt",
+                        "is_dir": false,
+                        "client_mtime": "Sat, 08 Nov 2014 23:57:12 +0000",
+                        "icon": "page_white_text",
+                        "read_only": false,
+                        "modifier": null,
+                        "bytes": 20,
+                        "modified": "Sat, 08 Nov 2014 23:57:12 +0000",
+                        "size": "20 bytes",
+                        "root": "dropbox",
+                        "mime_type": "text/plain",
+                        "revision": 784
+                    }
+                ],
+                [
+                    "/lvl1_folder_2b215dc7-1a5e-7751-6235-e25e33011536_testlvl2_folder_82ec9556-ccb7-50ec-f8fe-8035365ebd85_test",
+                    {
+                        "rev": "3111ec86afc",
+                        "thumb_exists": false,
+                        "path": "/lvl1_folder_2b215dc7-1a5e-7751-6235-e25e33011536_testlvl2_folder_82ec9556-ccb7-50ec-f8fe-8035365ebd85_test",
+                        "is_dir": true,
+                        "icon": "folder",
+                        "read_only": false,
+                        "modifier": null,
+                        "bytes": 0,
+                        "modified": "Sat, 08 Nov 2014 23:57:14 +0000",
+                        "size": "0 bytes",
+                        "root": "dropbox",
+                        "revision": 785
+                    }
+                ],
+                [
+                    "/lvl1_folder_07c04d7a-9a2c-4c4c-5909-16db6cf70236_testfile_678a822d-11b3-36be-513d-5eb263a99477_test.txt",
+                    {
+                        "rev": "3181ec86afc",
+                        "thumb_exists": false,
+                        "path": "/lvl1_folder_07c04d7a-9a2c-4c4c-5909-16db6cf70236_testfile_678a822d-11b3-36be-513d-5eb263a99477_test.txt",
+                        "is_dir": false,
+                        "client_mtime": "Sun, 09 Nov 2014 01:04:13 +0000",
+                        "icon": "page_white_text",
+                        "read_only": false,
+                        "modifier": null,
+                        "bytes": 20,
+                        "modified": "Sun, 09 Nov 2014 01:04:13 +0000",
+                        "size": "20 bytes",
+                        "root": "dropbox",
+                        "mime_type": "text/plain",
+                        "revision": 792
+                    }
+                ],
+                [
+                    "/lvl1_folder_07c04d7a-9a2c-4c4c-5909-16db6cf70236_testlvl2_folder_60170d6b-a7cf-cfbc-9696-453fff41dc68_test",
+                    {
+                        "rev": "3191ec86afc",
+                        "thumb_exists": false,
+                        "path": "/lvl1_folder_07c04d7a-9a2c-4c4c-5909-16db6cf70236_testlvl2_folder_60170d6b-a7cf-cfbc-9696-453fff41dc68_test",
+                        "is_dir": true,
+                        "icon": "folder",
+                        "read_only": false,
+                        "modifier": null,
+                        "bytes": 0,
+                        "modified": "Sun, 09 Nov 2014 01:04:13 +0000",
+                        "size": "0 bytes",
+                        "root": "dropbox",
+                        "revision": 793
+                    }
+                ],
+                [
+                    "/parent_folder_74c3bf90-8584-a10c-db15-42df32c1e6a0_test",
+                    {
+                        "rev": "3351ec86afc",
+                        "thumb_exists": false,
+                        "path": "/parent_folder_74c3bf90-8584-a10c-db15-42df32c1e6a0_test",
+                        "is_dir": true,
+                        "icon": "folder",
+                        "read_only": false,
+                        "modifier": null,
+                        "bytes": 0,
+                        "modified": "Sun, 16 Nov 2014 18:02:45 +0000",
+                        "size": "0 bytes",
+                        "root": "dropbox",
+                        "revision": 821
+                    }
+                ],
+                [
+                    "/parent_folder_9347f043-1f78-41ee-3734-da541faf91a9_test",
+                    {
+                        "rev": "3471ec86afc",
+                        "thumb_exists": false,
+                        "path": "/parent_folder_9347f043-1f78-41ee-3734-da541faf91a9_test",
+                        "is_dir": true,
+                        "icon": "folder",
+                        "read_only": false,
+                        "modifier": null,
+                        "bytes": 0,
+                        "modified": "Sun, 16 Nov 2014 18:16:45 +0000",
+                        "size": "0 bytes",
+                        "root": "dropbox",
+                        "revision": 839
+                    }
+                ],
+                [
+                    "/parent_folder_e7c73517-d75c-48fb-4655-90a6ba133f2e_test",
+                    {
+                        "rev": "35b1ec86afc",
+                        "thumb_exists": false,
+                        "path": "/parent_folder_e7c73517-d75c-48fb-4655-90a6ba133f2e_test",
+                        "is_dir": true,
+                        "icon": "folder",
+                        "read_only": false,
+                        "modifier": null,
+                        "bytes": 0,
+                        "modified": "Sun, 16 Nov 2014 18:19:21 +0000",
+                        "size": "0 bytes",
+                        "root": "dropbox",
+                        "revision": 859
+                    }
+                ],
+                [
+                    "/parent_folder_bc44edd6-284a-6bbf-bb4b-3ec88e09d640_test",
+                    {
+                        "rev": "36f1ec86afc",
+                        "thumb_exists": false,
+                        "path": "/parent_folder_bc44edd6-284a-6bbf-bb4b-3ec88e09d640_test",
+                        "is_dir": true,
+                        "icon": "folder",
+                        "read_only": false,
+                        "modifier": null,
+                        "bytes": 0,
+                        "modified": "Sun, 16 Nov 2014 18:25:34 +0000",
+                        "size": "0 bytes",
+                        "root": "dropbox",
+                        "revision": 879
+                    }
+                ],
+                [
+                    "/parent_folder_3ca7d3e7-2f86-3152-7b55-45d494f7c1c7_test",
+                    {
+                        "rev": "3831ec86afc",
+                        "thumb_exists": false,
+                        "path": "/parent_folder_3ca7d3e7-2f86-3152-7b55-45d494f7c1c7_test",
+                        "is_dir": true,
+                        "icon": "folder",
+                        "read_only": false,
+                        "modifier": null,
+                        "bytes": 0,
+                        "modified": "Tue, 18 Nov 2014 00:27:30 +0000",
+                        "size": "0 bytes",
+                        "root": "dropbox",
+                        "revision": 899
+                    }
+                ],
+                [
+                    "/file_6f3da3d0-61fa-a27d-1aaa-1dc04fd6da23_test.txt",
+                    {
+                        "rev": "4b71ec86afc",
+                        "thumb_exists": false,
+                        "path": "/file_6f3da3d0-61fa-a27d-1aaa-1dc04fd6da23_test.txt",
+                        "is_dir": false,
+                        "client_mtime": "Sun, 16 Oct 2016 23:53:02 +0000",
+                        "icon": "page_white_text",
+                        "read_only": false,
+                        "modifier": null,
+                        "bytes": 28,
+                        "modified": "Sun, 16 Oct 2016 23:53:02 +0000",
+                        "size": "28 bytes",
+                        "root": "dropbox",
+                        "mime_type": "text/plain",
+                        "revision": 1207
+                    }
+                ]
+            ],
+            "reset": true
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Mon, 17 Oct 2016 01:21:16 GMT",
+            "Content-Type",
+            "text/javascript",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Cache-Control",
+            "no-cache",
+            "Pragma",
+            "no-cache",
+            "Set-Cookie",
+            "gvc=NTQ3NDE3Mzg5OTc3NDQ5NzExNzA1ODY1ODU5MTYyMzY4MDQ4ODU%3D; expires=Sat, 16 Oct 2021 01:21:16 GMT; httponly; Path=/; secure",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Dropbox-Http-Protocol",
+            "None",
+            "X-Dropbox-Request-Id",
+            "37d0af1c2364f5d275d720a2e27d61fe",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-Server-Response-Time",
+            "95"
+        ]
+    }
+]

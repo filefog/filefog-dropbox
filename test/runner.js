@@ -16,6 +16,7 @@ var TestRunner = require('filefog-provider-tests').TestRunner;
 var GenerateCredentials = require('filefog-provider-tests').GenerateCredentials;
 var Definition = require('../index.js');
 var winston = require('winston');
+var path = require('path');
 
 
 // Grab targeted interfaces from this adapter's `package.json` file:
@@ -62,8 +63,8 @@ new TestRunner({
         redirect_url : 'http://localhost:3000/service/callback/dropbox'
     },
     credentials: {
-        _gist : '8b03e9461088987f2550'
-    }
-
+        _file: path.resolve(__dirname,'credentials')
+    },
+    fixtures_path: path.resolve(__dirname,'fixtures')
 
 });

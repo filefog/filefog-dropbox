@@ -1,0 +1,46 @@
+[
+    {
+        "scope": "https://api-content.dropbox.com:443",
+        "method": "POST",
+        "path": "/1/files_put/auto/file_c69b0f04-3826-465b-a491-527a1a4abc95_test.txt",
+        "body": "this is updated test content",
+        "status": 200,
+        "response": {
+            "revision": 1314,
+            "bytes": 28,
+            "thumb_exists": false,
+            "rev": "5221ec86afc",
+            "modified": "Mon, 17 Oct 2016 01:21:08 +0000",
+            "shareable": false,
+            "mime_type": "text/plain",
+            "path": "/file_c69b0f04-3826-465b-a491-527a1a4abc95_test.txt",
+            "is_dir": false,
+            "size": "28 bytes",
+            "root": "dropbox",
+            "client_mtime": "Mon, 17 Oct 2016 01:21:08 +0000",
+            "icon": "page_white_text"
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Mon, 17 Oct 2016 01:21:08 GMT",
+            "Content-Type",
+            "text/javascript",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-dropbox-request-id",
+            "08a3b4b8e8a900139673647b3f4f6e59",
+            "pragma",
+            "no-cache",
+            "cache-control",
+            "no-cache",
+            "X-Server-Response-Time",
+            "350",
+            "X-Robots-Tag",
+            "noindex, nofollow, noimageindex"
+        ]
+    }
+]

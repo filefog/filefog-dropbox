@@ -1,0 +1,59 @@
+[
+    {
+        "scope": "https://api.dropbox.com:443",
+        "method": "GET",
+        "path": "/1/account/info",
+        "body": "",
+        "status": 200,
+        "response": {
+            "referral_link": "https://db.tt/SMQTE53e",
+            "display_name": "FileFog Test",
+            "uid": 263340860,
+            "locale": "en",
+            "email_verified": false,
+            "team": null,
+            "quota_info": {
+                "datastores": 0,
+                "shared": 0,
+                "quota": 2147483648,
+                "normal": 68
+            },
+            "is_paired": false,
+            "country": "US",
+            "name_details": {
+                "familiar_name": "FileFog",
+                "surname": "Test",
+                "given_name": "FileFog"
+            },
+            "email": "filefogtest@gmail.com"
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Mon, 17 Oct 2016 01:21:16 GMT",
+            "Content-Type",
+            "text/javascript",
+            "Content-Length",
+            "390",
+            "Connection",
+            "keep-alive",
+            "Cache-Control",
+            "no-cache",
+            "Pragma",
+            "no-cache",
+            "Set-Cookie",
+            "gvc=MTQyNzcxNjYwMTYzMTIxNzU1MjE1MjYzMTU0NDUyMTQxMDc1OTky; expires=Sat, 16 Oct 2021 01:21:16 GMT; httponly; Path=/; secure",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Dropbox-Http-Protocol",
+            "None",
+            "X-Dropbox-Request-Id",
+            "0ef492748125f8157e26ed3ee92ad385",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-Server-Response-Time",
+            "90"
+        ]
+    }
+]
